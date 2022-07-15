@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    </style>
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="left">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="right">
+        <div class="input-field">
+          <div class="trial">
+            <span> Try it free 7 days</span> then $20/mo. thereafter
+          </div>
+
+          <form class="form" id="form" action="">
+            <div class="inputcontrol">
+              <img class="error-icon" alt="" />
+              <input
+                type="text"
+                name="firstname"
+                placeholder="First Name"
+                id="firstname"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="inputcontrol">
+              <img class="error-icon" alt="" />
+              <input
+                type="text"
+                name="lastname"
+                placeholder="Last Name"
+                id="lastname"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="inputcontrol">
+              <img class="error-icon" alt="" />
+              <input name="email" placeholder="Email Address" id="email" />
+              <div class="error"></div>
+            </div>
+            <div class="inputcontrol">
+              <img class="error-icon" alt="" />
+              <input
+                type="text"
+                name="password"
+                placeholder="Password"
+                id="password"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="inputcontrol">
+              <button type="submit" class="submit" id="submit">
+                Claim your free trial
+              </button>
+            </div>
+            <div class="terms">
+              By clicking the button, you are agreeing to our
+              <span class="services">Terms and Services</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
